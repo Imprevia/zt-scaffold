@@ -1,0 +1,12 @@
+// 02--移动端版
+{{#sprites}}
+.icon-{{name}}{
+  display: inline-block;
+  background-image: url('{{image}}');
+  background-position: {{offset_x}}*0.5px {{offset_y}}*0.5px;
+  background-repeat:no-repeat;
+  background-size:{{total_width}}*0.5px auto;
+  width:{{width}}*0.5px;
+  height:{{height}}*0.5px;
+}
+{{/sprites}}

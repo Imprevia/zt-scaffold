@@ -1,0 +1,42 @@
+{
+  "name": "zt-scaffold",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "zt": "bin/cli.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "devDependencies": {
+    "chalk": "^4.0.0",
+    "eslint": "^4.3.0"
+  },
+  "author": "GYT",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "commander": "^5.0.0",
+    "express": "^4.17.1",
+    "gulp": "4.0.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-changed": "^4.0.2",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-debug": "^4.0.0",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.2.0",
+    "gulp-pretty": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.1",
+    "gulp.spritesmith": "^6.5.0",
+    "http-proxy-middleware": "^1.0.4",
+    "opn": "^6.0.0",
+    "pump": "^3.0.0"
+  }
+}

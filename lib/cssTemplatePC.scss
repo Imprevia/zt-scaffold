@@ -1,0 +1,11 @@
+// 01--PC版
+{{#sprites}}
+.icon-{{name}}{
+  display: inline-block;
+  background-image: url('{{image}}');
+  background-position: {{px.offset_x}} {{px.offset_y}};
+  background-repeat:no-repeat;
+  width:{{px.width}};
+  height:{{px.height}};
+}
+{{/sprites}}

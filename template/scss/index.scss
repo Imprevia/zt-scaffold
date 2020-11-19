@@ -1,0 +1,63 @@
+@import "sprite";
+
+/******* 公共样式 **************/
+*{
+  box-sizing: border-box;
+}
+body, div, p, ul, ol, li, h2, table, thead, tr, td {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  -ms-overflow-x: hidden;
+  font-size: 18px;
+  font-family: "microsoft yahei", "Simsum";
+  background: #f9ecca;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  border: none;
+  display: block;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+%userSelect {
+  user-select: none;
+}
+
+%cursor {
+  cursor: pointer;
+}
+
+%text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.box{
+  width:1000px;
+  margin:0 auto;
+}
+/********** 正式代码 *************/
