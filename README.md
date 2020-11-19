@@ -22,7 +22,7 @@ build [pro] [task]       打包项目 pro: pc、touch task, 选填 scss、uglify
 {
     port: 5156, // 端口
     proxy: {
-        '/api': {target: 'http://www.job5156.com', changeOrigin: true}
+        '/api': {target: 'http://www.example.com', changeOrigin: true}
     }, // 代理 
     gulp: { // baseDir 项目根目录
         scss: {
